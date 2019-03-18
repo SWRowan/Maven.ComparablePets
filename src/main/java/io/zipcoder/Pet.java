@@ -12,6 +12,10 @@ public abstract class Pet {
         return name;
     }
 
+    public void setName(String name){
+        this.name = name;
+    }
+
     public void makeNoise(){
         console.println("PetNoise");
     }

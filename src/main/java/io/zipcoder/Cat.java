@@ -1,6 +1,8 @@
 package io.zipcoder;
 
-public class Cat extends Pet {
+import java.util.Comparator;
+
+public class Cat extends Pet implements Comparator {
 
 
     public Cat(String name) {
@@ -12,4 +14,7 @@ public class Cat extends Pet {
         console.println("Meow");
     }
 
+    public int compare(Object o1, Object o2) {
+        return 0;
+    }
 }
